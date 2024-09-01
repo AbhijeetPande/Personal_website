@@ -41,13 +41,18 @@ nav a {
 .nav-bar {
 	display: flex;
 	justify-content: space-between;
-	background-color: #f0f0f0;
+	background-color:  #4b0082;
 	padding: 1em;
 }
 
-.nav-bar li {
-	list-style: none;
-	margin-right: 20px;
+.nav-section {
+	flex-basis: 50%;
+	text-align: center;
+}
+
+.nav-section a {
+	text-decoration: none;
+	color: #fff;
 }
 
 .hero-section {
